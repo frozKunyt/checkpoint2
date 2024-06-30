@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch">
+            <div class="time" id="time1">00:00.00</div>
+            <button onclick="start(1)">Start</button>
+            <button onclick="stop(1)">Stop</button>
+            <button onclick="pause(1)">Pause</button>
+        </div>
+        <div class="stopwatch">
+            <div class="time" id="time2">00:00.00</div>
+            <button onclick="start(2)">Start</button>
+            <button onclick="stop(2)">Stop</button>
+            <button onclick="pause(2)">Pause</button>
+        </div>
+        <div class="stopwatch">
+            <div class="time" id="time2">00:00.00</div>
+            <button onclick="start(3)">Start</button>
+            <button onclick="stop(3)">Stop</button>
+            <button onclick="pause(3)">Pause</button>
+        </div>
+        <div class="stopwatch">
+            <div class="time" id="time2">00:00.00</div>
+            <button onclick="start(4)">Start</button>
+            <button onclick="stop(4)">Stop</button>
+            <button onclick="pause(4)">Pause</button>
+        </div>
+        <div class="stopwatch">
+            <div class="time" id="time2">00:00.00</div>
+            <button onclick="start(5)">Start</button>
+            <button onclick="stop(5)">Stop</button>
+            <button onclick="pause(5)">Pause</button>
+        </div>
+        <!-- Add more stopwatches as needed -->
+    </div>
+    <button onclick="stopAll()">Stop All</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
